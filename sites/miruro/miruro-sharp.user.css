@@ -224,7 +224,11 @@ domain("theanimecommunity.com") {
     }
 
     div[class*="verticalCardShell"] {
-        background-color: transparent
+        background-color: transparent;
+    }
+
+    div[class*="verticalCardShell"] div[class*="playButton"] svg {
+        color: var(--green);
     }
 
     div[class*="verticalCardShell"]:hover button {

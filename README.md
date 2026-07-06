@@ -9,14 +9,14 @@ Themes may be rounded, preserving the shape of the original theme or sharp, any 
     <li>
     <div style="display:flex;align-content:center;gap:5px;">
     <a href="https://www.miruro.tv">Miruro</a>
-    <a href="https://raw.githubusercontent.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/miruro/miruro.user.css"><img alt="Miruro Rounded Theme" src="https://img.shields.io/badge/Rounded-689d6a"/></a>
-    <a href="https://raw.githubusercontent.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/miruro/miruro-sharp.user.css"><img alt="Miruro Sharp Theme" src="https://img.shields.io/badge/Sharp-cc241d"/></a>
+    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/miruro/miruro.user.css"><img alt="Miruro Rounded Theme" src="https://img.shields.io/badge/Rounded-689d6a"/></a>
+    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/miruro/miruro-sharp.user.css"><img alt="Miruro Sharp Theme" src="https://img.shields.io/badge/Sharp-cc241d"/></a>
     </div>
     </li>
     <li>
     <div style="display:flex;align-content:center;gap:5px;">
     <a href="https://www.facebook.com">Facebook</a>
-    <a href="https://raw.githubusercontent.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/facebook/facebook-sharp.user.css"><img alt="Facebook Sharp Theme" src="https://img.shields.io/badge/Sharp-cc241d"/></a>
+    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/facebook/facebook-sharp.user.css"><img alt="Facebook Sharp Theme" src="https://img.shields.io/badge/Sharp-cc241d"/></a>
     </div>
     </li>
 </ul>

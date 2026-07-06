@@ -9,5 +9,8 @@ This is a collection of my userstyles for different websites with the gruvbox th
 - Miruro.tv
 - Facebook
 
+## Installation
+The themes can be installed from my profile at [UserStyles.world](https://userstyles.world/user/venittas)
+
 ## Contributing
 Contributions will be accepted as long as you attach previews of your theme!

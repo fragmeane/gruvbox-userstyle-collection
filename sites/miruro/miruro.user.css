@@ -359,7 +359,6 @@ domain("theanimecommunity.com") {
         background-color: var(--surface-container-low);
     }
 
-
     button[class*="toggleButton"] span[class*="trackChecked"] {
         background-color: var(--primary-accent-bg);
     }
@@ -368,10 +367,14 @@ domain("theanimecommunity.com") {
         background-color: var(--global-text);
     }
 
+    a[class*="styledCardWrapper"] {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
     div[class*="genreContainer"] a {
         background-color: var(--blue);
     }
-
 
     div[class*="dropdownGroup"] button[class*="trigger"] svg {
         color: var(--blue);

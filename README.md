@@ -21,6 +21,9 @@ Themes may be rounded, preserving the shape of the original theme or sharp, any 
     </li>
 </ul>
 
+## Preview
+Theme previews are available at the [assets/](/assets/) directory followed by respective websites.
+
 ## Installation
 Themes can be installed by clicking which kind of theme you want to install beside the platform you are installing for. 
 

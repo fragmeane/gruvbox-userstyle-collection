@@ -1,0 +1,298 @@
+/* ==UserStyle==
+@name           facebook-gruvbox-forest
+@namespace      github.com/venittas
+@version        1.0.1
+@description    A gruvbox forest theme with sharp corners for facebook
+@author         venittas
+==/UserStyle== */
+@-moz-document domain("facebook.com") {
+
+    :root,
+    .__fb-dark-mode {
+        --mwp-header-background-color: hsl(195.00, 6.45%, 12.16%) !important;
+        --mwp-header-button-color: hsl(43.16, 58.76%, 80.98%) !important;
+        --mwp-header-text-color: hsl(48.46, 86.67%, 88.24%) !important;
+        --messenger-card-background: hsl(20.00, 3.09%, 19.02%) !important;
+        --chat-replied-message-background-color: hsl(21.82, 7.38%, 29.22%) !important;
+        --chat-incoming-message-bubble-background-color: hsl(57.20, 79.26%, 26.47%) !important;
+        --chat-outgoing-message-bubble-background-color: hsl(61.21, 66.22%, 44.12%) !important;
+        --chat-message-text-color: hsl(20.00, 5.26%, 22.35%) !important;
+        --chat-incoming-message-text-color: hsl(48.46, 86.67%, 88.24%) !important;
+        --chat-composer-background-color: hsl(195.00, 6.45%, 12.16%) !important;
+        --chat-composer-button-color: hsl(61.21, 66.22%, 44.12%) !important;
+        --chat-composer-caret-color: hsl(61.21, 66.22%, 44.12%) !important;
+        --chat-composer-input-background-color: hsl(20.00, 5.26%, 22.35%) !important;
+        --chat-scrollbar-thumb-color: hsl(59.52, 70.79%, 34.90%) !important;
+        --always-white: hsl(48.46, 86.67%, 88.24%);
+        --action-corner-radius: 6px;
+        --action-tile-radius: 16px;
+        --attachment-footer-background: rgba(255, 255, 255, .1);
+        --background-deemphasized: rgba(255, 255, 255, .1);
+        --badge-corner-radius: 255px;
+        --base-cherry: hsl(6.33, 96.14%, 59.41%);
+        --base-grape: hsl(322.50, 38.83%, 40.39%);
+        --base-lemon: hsl(41.97, 95.31%, 58.24%);
+        --base-lime: hsl(61.21, 66.22%, 44.12%);
+        --base-pink: hsl(332.66, 33.62%, 53.92%);
+        --base-blue: hsl(182.69, 32.68%, 40.20%);
+        --base-teal: #14B898;
+        --blue-link: hsl(182.69, 32.68%, 40.20%);
+        --border-ui-emphasis: rgba(255, 255, 255, .05);
+        --bottom-sheet-corner-radius: 20px;
+        --button-corner-radius: 8px;
+        --button-group-corner-radius: 0px;
+        --button-large-corner-radius: 8px;
+        --button-small-corner-radius: 8px;
+        --card-background-flat: hsl(20.00, 3.09%, 19.02%);
+        --card-background: hsl(20.00, 3.09%, 19.02%);
+        --card-corner-radius: 12px;
+        --card-large-corner-radius: 16px;
+        --card-small-corner-radius: 12px;
+        --card-square-corner-radius: 0px;
+        --carousel-corner-radius: 0px;
+        --cell-corner-radius: 0px;
+        --checkbox-corner-radius: 4px;
+        --chip-corner-radius: 255px;
+        --chip-group-corner-radius: 0px;
+        --comment-background: hsl(20.00, 5.26%, 22.35%);
+        --comment-bubble: 16px;
+        --comment-threading-lines: #46484B;
+        --cursor: hsl(182.69, 32.68%, 40.20%);
+        --cursor-on-color: hsl(48.46, 86.67%, 88.24%);
+        --cursor-on-media: hsl(48.46, 86.67%, 88.24%);
+        --dialog-corner-radius: 12px;
+        --disabled-button-background: rgba(255, 255, 255, .1);
+        --disabled-icon: hsl(26.67, 9.68%, 36.47%);
+        --disabled-text: hsl(26.67, 9.68%, 36.47%);
+        --divider: hsl(21.82, 7.38%, 29.22%);
+        --divider-on-color: hsl(26.67, 9.68%, 36.47%);
+        --entity-header-background-corner-radius: 0px;
+        --event-date: hsl(2.40, 75.11%, 45.69%);
+        --fb-logo: hsl(189.56, 88.98%, 24.90%);
+        --fb-wordmark: hsl(48.46, 86.67%, 88.24%);
+        --fds-animation-enter-exit-in: cubic-bezier(.14, 1, .34, 1);
+        --fds-animation-enter-exit-out: cubic-bezier(.45, .1, .2, 1);
+        --fds-animation-expand-collapse-in: cubic-bezier(.17, .17, 0, 1);
+        --fds-animation-expand-collapse-out: cubic-bezier(.17, .17, 0, 1);
+        --fds-animation-fade-in: cubic-bezier(0, 0, 1, 1);
+        --fds-animation-fade-out: cubic-bezier(0, 0, 1, 1);
+        --fds-animation-glimmer-in: cubic-bezier(.5, 0, .5, 1);
+        --fds-animation-glimmer-out: cubic-bezier(.5, 0, .5, 1);
+        --fds-animation-linear-in: cubic-bezier(0, 0, 1, 1);
+        --fds-animation-linear-out: cubic-bezier(0, 0, 1, 1);
+        --fds-animation-move-in: cubic-bezier(.17, .17, 0, 1);
+        --fds-animation-move-out: cubic-bezier(.17, .17, 0, 1);
+        --fds-animation-passive-move-in: cubic-bezier(.5, 0, .1, 1);
+        --fds-animation-passive-move-out: cubic-bezier(.5, 0, .1, 1);
+        --fds-animation-quick-move-in: cubic-bezier(.1, .9, .2, 1);
+        --fds-animation-quick-move-out: cubic-bezier(.1, .9, .2, 1);
+        --fds-animation-swap-shuffle-in: cubic-bezier(.14, 1, .34, 1);
+        --fds-animation-swap-shuffle-out: cubic-bezier(.45, .1, .2, 1);
+        --fds-duration-extra-extra-short-in: .1s;
+        --fds-duration-extra-extra-short-out: .1s;
+        --fds-duration-extra-long-in: 1s;
+        --fds-duration-extra-long-out: 1s;
+        --fds-duration-extra-short-in: .2s;
+        --fds-duration-extra-short-out: .15s;
+        --fds-duration-long-in: .5s;
+        --fds-duration-long-out: .35s;
+        --fds-duration-medium-in: .4s;
+        --fds-duration-medium-out: .35s;
+        --fds-duration-none: 0ms;
+        --fds-duration-short-in: .28s;
+        --fds-duration-short-out: .2s;
+        --fds-fast: .2s;
+        --fds-slow: .4s;
+        --filter-group-corner-radius: 0px;
+        --glimmer-base-opaque: hsl(48.46, 86.67%, 88.24%);
+        --glimmer-corner-radius: 0px;
+        --glimmer-high-contrast-base-opaque: hsl(48.46, 86.67%, 88.24%);
+        --glimmer-large-corner-radius: 12px;
+        --glimmer-medium-corner-radius: 8px;
+        --glimmer-opacity-high-contrast-max: .48;
+        --glimmer-opacity-high-contrast-min: .1;
+        --glimmer-opacity-max: .58;
+        --glimmer-opacity-min: .15;
+        --glimmer-small-corner-radius: 6px;
+        --glimmer-xlarge-corner-radius: 16px;
+        --glimmer-xsmall-corner-radius: 4px;
+        --handle-corner-radius: 255px;
+        --hosted-view-selected-state: rgba(29, 133, 252, .1);
+        --hscroll-corner-radius: 0px;
+        --hscroll-utility-corner-radius: 0px;
+        --icon-action-corner-radius: 255px;
+        --infochip-large-radius: 8px;
+        --infochip-medium-radius: 4px;
+        --infochip-small-radius: 4px;
+        --input-bar-corner-radius: 255px;
+        --input-border-width: 1px;
+        --input-corner-radius: 12px;
+        --input-field-expanded-corner-radius: 20px;
+        --input-field-round-corner-radius: 255px;
+        --last-active-state-background: hsl(20.00, 5.26%, 22.35%);
+        --last-active-state-text: hsl(59.52, 70.79%, 34.90%);
+        --link-on-media: hsl(48.46, 86.67%, 88.24%);
+        --list-cell-corner-radius: 8px;
+        --list-cell-min-height: 44px;
+        --listcell-inset-radius: 16px;
+        --media-corner-radius: 12px;
+        --media-hovered: rgba(255, 255, 255, .15);
+        --media-inner-border: rgba(255, 255, 255, .05);
+        --media-large-corner-radius: 16px;
+        --media-pressed: rgba(255, 255, 255, .3);
+        --media-small-corner-radius: 12px;
+        --media-square-corner-radius: 0px;
+        --nav-bar-background: #252728;
+        --negative: hsl(6.33, 96.14%, 59.41%);
+        --negative-background: rgba(185, 24, 40, .2);
+        --new-notification-background: rgba(45, 136, 255, .1);
+        --non-media-pressed: rgba(255, 255, 255, .2);
+        --non-media-pressed-on-dark: rgba(255, 255, 255, .3);
+        --notification-badge: hsl(2.40, 75.11%, 45.69%);
+        --overlay-on-media: rgba(0, 0, 0, .8);
+        --pagination-dots-corner-radius: 255px;
+        --persistent-cta-corner-radius: 0px;
+        --placeholder-icon: hsl(38.57, 24.14%, 65.88%);
+        --placeholder-image: hsl(35.00, 17.14%, 58.82%);
+        --placeholder-text: hsl(40.38, 38.24%, 73.33%);
+        --placeholder-text-on-media: hsl(43.16, 58.76%, 80.98%);
+        --popover-background: hsl(21.82, 7.38%, 29.22%);
+        --popover-corner-radius: 16px;
+        --positive: hsl(61.21, 66.22%, 44.12%);
+        --positive-deemphasized: hsl(20.00, 3.09%, 19.02%);
+        --pressed-state-large-corner-radius: 12px;
+        --pressed-state-medium-corner-radius: 8px;
+        --pressed-state-rounded-corner-radius: 255px;
+        --pressed-state-small-corner-radius: 6px;
+        --pressed-state-square-corner-radius: 0px;
+        --pressed-state-xlarge-corner-radius: 16px;
+        --pressed-state-xsmall-corner-radius: 4px;
+        --primary-button-background: hsl(59.52, 70.79%, 34.90%);
+        --primary-button-background-on-color: hsl(45.56, 67.50%, 84.31%);
+        --primary-button-background-on-media: hsl(45.56, 67.50%, 84.31%);
+        --primary-button-icon: hsl(48.46, 86.67%, 88.24%);
+        --primary-button-icon-on-color: hsl(20.00, 3.09%, 19.02%);
+        --primary-button-icon-on-media: hsl(20.00, 3.09%, 19.02%);
+        --primary-button-text: hsl(48.46, 86.67%, 88.24%);
+        --primary-button-text-on-media: hsl(20.00, 3.09%, 19.02%);
+        --primary-deemphasized-button-background: hsla(59.52, 70.79%, 34.90%, .5);
+        --primary-deemphasized-button-icon: hsl(59.52, 70.79%, 34.90%);
+        --primary-deemphasized-button-text: hsl(48.46, 86.67%, 88.24%);
+        --primary-icon: hsl(48.46, 86.67%, 88.24%);
+        --primary-icon-on-media: hsl(48.46, 86.67%, 88.24%);
+        --primary-text: hsl(48.46, 86.67%, 88.24%);
+        --primary-text-on-color: hsl(48.46, 86.67%, 88.24%);
+        --primary-text-on-media: hsl(48.46, 86.67%, 88.24%);
+        --profile-photo-actor-corner-radius: 255px;
+        --profile-photo-non-actor-large-corner-radius: 12px;
+        --profile-photo-non-actor-medium-corner-radius: 8px;
+        --profile-photo-non-actor-small-corner-radius: 6px;
+        --profile-photo-non-actor-xlarge-corner-radius: 16px;
+        --profile-photo-non-actor-xsmall-corner-radius: 4px;
+        --progress-corner-radius: 255px;
+        --progress-ring-blue-background: hsla(182.69, 32.68%, 40.20%, .5);
+        --progress-ring-blue-foreground: hsl(182.69, 32.68%, 40.20%);
+        --progress-ring-disabled-background: rgba(111, 114, 118, .2);
+        --progress-ring-disabled-foreground: #6F7276;
+        --progress-ring-neutral-background: rgba(255, 255, 255, .2);
+        --progress-ring-neutral-foreground: hsl(48.46, 86.67%, 88.24%) --progress-ring-on-media-background: rgba(255, 255, 255, .2);
+        --progress-ring-on-media-foreground: hsl(48.46, 86.67%, 88.24%);
+        --radio-border-width: 2px;
+        --radio-checked-icon-size-large: 12px;
+        --radio-checked-icon-size-medium: 12px;
+        --radio-size-large: 24px;
+        --radio-size-medium: 20px;
+        --rating-star-active: #FF9A42;
+        --rating-star-active-on-color: hsl(48.46, 86.67%, 88.24%);
+        --rating-star-active-on-media: hsl(48.46, 86.67%, 88.24%);
+        --reaction-anger: hsl(6.33, 96.14%, 59.41%);
+        --reaction-haha: hsl(41.97, 95.31%, 58.24%);
+        --reaction-like: hsl(189.56, 88.98%, 24.90%);
+        --reaction-love: hsl(6.33, 96.14%, 59.41%);
+        --reaction-sorry: hsl(41.97, 95.31%, 58.24%);
+        --reaction-support: hsl(41.97, 95.31%, 58.24%);
+        --reaction-wow: hsl(41.97, 95.31%, 58.24%);
+        --reshare-radius: 16px;
+        --secondary-button-background: hsl(26.67, 9.68%, 36.47%);
+        --secondary-button-background-floating: hsl(27.50, 10.71%, 43.92%);
+        --secondary-button-background-on-color: hsl(27.50, 10.71%, 43.92%);
+        --secondary-button-background-on-dark: hsl(26.67, 9.68%, 36.47%);
+        --secondary-button-background-on-media: hsl(26.67, 9.68%, 36.47%);
+        --secondary-button-icon-on-media: hsl(48.46, 86.67%, 88.24%);
+        --secondary-button-pressed: rghsl(21.82, 7.38%, 29.22%);
+        --secondary-button-stroke: rgba(0, 0, 0, 0);
+        --secondary-button-text: hsl(40.38, 38.24%, 73.33%);
+        --secondary-icon: hsl(40.38, 38.24%, 73.33%);
+        --secondary-icon-on-color: hsl(43.16, 58.76%, 80.98%);
+        --secondary-icon-on-media: hsl(43.16, 58.76%, 80.98%);
+        --secondary-text: hsl(40.38, 38.24%, 73.33%);
+        --secondary-text-on-color: hsl(43.16, 58.76%, 80.98%);
+        --secondary-text-on-media: hsl(43.16, 58.76%, 80.98%);
+        --selection-control-corner-radius: 4px;
+        --selection-control-large-corner-radius: 255px;
+        --selector-item-round: 255px;
+        --selector-item-square: 8px;
+        --sticky-footer-corner-radius: 0px;
+        --story-seen: #84878B;
+        --story-unseen: hsl(182.69, 32.68%, 40.20%);
+        --sub-nav-action-corner-radius: 255px;
+        --surface-background: hsl(195.00, 6.45%, 12.16%);
+        --switch-unchecked-background-color: #6F7276;
+        --table-corner-radius: 0px;
+        --text-badge-corner-radius: 4px;
+        --text-badge-padding-horizontal: 6px;
+        --text-badge-padding-vertical: 6px;
+        --text-highlight: hsla(189.56, 88.98%, 24.90%, .6);
+        --text-input-active-text: hsl(189.56, 88.98%, 24.90%);
+        --text-input-bar-background: rgba(255, 255, 255, .1);
+        --text-input-caption-margin-top: 10px;
+        --text-input-multi-padding-between-text-scrollbar: 20px;
+        --text-input-multi-padding-scrollbar: 16px;
+        --text-input-padding-vertical: 12px;
+        --toast-addon-padding-horizontal: 6px;
+        --toast-addon-padding-vertical: 6px;
+        --toast-container-padding-horizontal: 10px;
+        --toast-container-padding-vertical: 16px;
+        --toast-corner-radius: 8px;
+        --toggle-active-background: hsl(189.56, 88.98%, 24.90%);
+        --toggle-active-icon: ;
+        --toggle-active-text: hsl(48.46, 86.67%, 88.24%);
+        --tooltip-background: rgba(0, 0, 0, .8);
+        --tooltip-background-on-media: hsl(48.46, 86.67%, 88.24%);
+        --tooltip-corner-radius: 12px;
+        --verticalgrid-corner-radius: 0px;
+        --verticalgrid-inset-corner-radius: 16px;
+        --warning: hsl(39.56, 73.39%, 48.63%);
+        --wash: hsl(195.00, 6.45%, 12.16%);
+        --web-wash: hsl(195.00, 6.45%, 12.16%);
+        --accent: hsl(182.69, 32.68%, 40.20%);
+    }
+
+    * {
+        border-radius: 0px !important;
+    }
+
+    .__fb-dark-mode div[role="button"] {
+        background-color: transparent !important;
+    }
+
+    a[href="/marketplace/create/"] svg {
+        --x-color: hsl(40.38, 38.24%, 73.33%) !important;
+    }
+
+    div>div>div:has(h2) {
+        background-image: none !important;
+    }
+
+    .x1xmf6yo:last-child span {
+        color: var(--primary-text) !important;
+    }
+
+    .x1xmf6yo:last-child svg {
+        color: var(--primary-text) !important;
+    }
+
+    #seo_filters span {
+        color: var(--blue-link) !important;
+    }
+}

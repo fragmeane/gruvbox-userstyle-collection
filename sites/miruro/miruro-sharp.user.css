@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           miruro-gruvbox-sharp
 @namespace      github.com/venittas
-@version        1.0.1
+@version        1.0.0
 @description    A gruvbox theme with sharp corners for miruro
 @author         venittas
 ==/UserStyle== */
@@ -68,7 +68,6 @@ domain("theanimecommunity.com") {
     }
 
     * {
-        border-radius: 0px !important;
         border: 0 !important;
         filter: none !important;
         -webkit-filter: none !important;
@@ -85,7 +84,8 @@ domain("theanimecommunity.com") {
     button[class*="tabActive"],
     button[class*="isSelected"],
     a[class*="navItem"],
-    button[class*="commentButton"] {
+    button[class*="commentButton"],
+    button[class*="rowSlideButton"] {
         color: var(--global-text) !important;
     }
 
@@ -391,7 +391,7 @@ domain("theanimecommunity.com") {
     }
 
     div[class*="tagRowGroup"] div:last-child button:last-child svg {
-        color: var(--aqua);
+        color: var(--pink);
     }
 
     .mantine-Popover-dropdown {
@@ -448,8 +448,70 @@ domain("theanimecommunity.com") {
         color: var(--global-text) !important;
     }
 
-    div[class*="treeLine"],
-    div[class*="treeColumn"] {
+    .commentRow.includeTreeLine::before {
+        border-left: 1.4px solid var(--surface-container-high) !important;
+    }
+
+    .treeLine {
+        border-left: 1.4px solid var(--surface-container-high) !important;
+    }
+
+    .treeColumn::before,
+    .view-more-hook::before {
+        border-color: var(--surface-container-high) !important;
+        border-left: 1.4px solid var(--surface-container-high) !important;
+        border-bottom: 1.4px solid var(--surface-container-high) !important;
+        border-radius: 0px !important;
+    }
+
+
+    button[class*="filterChip"][data-active="true"] {
+        color: var(--global-text) !important;
+    }
+
+    button[class*="filterChip"][data-active="true"] span[class*="filterChipCount"] {
+        background-color: var(--pink) !important;
+    }
+
+    div[class*="notificationSectionItems"] div[class*="cardContainer"] {
+        outline: none;
+    }
+
+    div[class*="notificationSectionItems"] div[class*="cardContainer"]:hover {
+        color: var(--primary-accent);
+    }
+
+    div[class*="notificationSectionItems"] div[class*="cardContainer"]:hover div {
+        color: var(--primary-accent);
+    }
+
+    .threadRoot div:nth-child(2) p {
         color: var(--on-surface-variant) !important;
+    }
+
+    section[aria-label*="Notifications"] button {
+        background-color: var(--surface-container-highest) !important;
+        color: var(--global-text) !important;
+    }
+
+    section[aria-label*="Notifications"] button:hover {
+        background-color: var(--primary-accent) !important;
+        color: var(--global-text) !important;
+    }
+
+    #episodes-list-container button {
+        outline: none;
+        box-shadow: none;
+        transform: none;
+        -moz-transform: none;
+        -webkit-transform: none;
+    }
+
+    #episodes-list-container button * {
+        transition: all ease-in .2s;
+    }
+
+    #episodes-list-container button:hover * {
+        transform: translateX(8%);
     }
 }

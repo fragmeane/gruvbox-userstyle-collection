@@ -1,46 +1,45 @@
 /* ==UserStyle==
 @name           miruro-gruvbox-sharp
 @namespace      github.com/venittas
-@version        1.0.1
+@version        1.0.2
 @description    A gruvbox theme with sharp corners for miruro
 @author         venittas
 ==/UserStyle== */
-:root {
-    --surface: #1d2021;
-    /* background */
-    --on-surface: #fbf1c7;
-    /* text & icons */
-    --on-surface-variant: #ebdbb2;
-    /* muted text & icons */
-    --surface-container-lowest: #282828;
-    /* surface on top of background */
-    --surface-container-low: #32302f;
-    /* surface on top of lowest surface */
-    --surface-container: #3c3836;
-    /* surface on top of low surface */
-    --surface-container-high: #504945;
-    /* surface on top of default surface */
-    --surface-container-highest: #665c54;
-    /* surface on top of high surface */
-    --red: #cc241d;
-    --red-bright: #fb4934;
-    --orange: #d65d0e;
-    --orange-bright: #fe8019;
-    --yellow: #d79921;
-    --yellow-bright: #fabd2f;
-    --green: #98971a;
-    --green-bright: #b8bb26;
-    --aqua: #689d6a;
-    --aqua-bright: #8ec07c;
-    --blue: #458588;
-    --blue-bright: #83a598;
-    --pink: #b16286;
-    --pink-bright: #d3869b;
-}
-
 @-moz-document domain("miruro.tv"),
 domain("theanimecommunity.com") {
     :root {
+        --surface: #1d2021;
+        /* background */
+        --on-surface: #fbf1c7;
+        /* text & icons */
+        --on-surface-variant: #ebdbb2;
+        /* muted text & icons */
+        --surface-container-lowest: #282828;
+        /* surface on top of background */
+        --surface-container-low: #32302f;
+        /* surface on top of lowest surface */
+        --surface-container: #3c3836;
+        /* surface on top of low surface */
+        --surface-container-high: #504945;
+        /* surface on top of default surface */
+        --surface-container-highest: #665c54;
+        /* surface on top of high surface */
+        --red: #cc241d;
+        --red-bright: #fb4934;
+        --orange: #d65d0e;
+        --orange-bright: #fe8019;
+        --yellow: #d79921;
+        --yellow-bright: #fabd2f;
+        --green: #98971a;
+        --green-bright: #b8bb26;
+        --aqua: #689d6a;
+        --aqua-bright: #8ec07c;
+        --blue: #458588;
+        --blue-bright: #83a598;
+        --pink: #b16286;
+        --pink-bright: #d3869b;
+
+
         --primary-accent: var(--aqua) !important;
         --primary-accent-bg: rgb(104 157 106 / .5) !important;
         --primary-accent-tr: rgb(142 192 124 / .7) !important;

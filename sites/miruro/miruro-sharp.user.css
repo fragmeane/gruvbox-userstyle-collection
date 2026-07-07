@@ -310,7 +310,7 @@ domain("theanimecommunity.com") {
         color: var(--blue);
     }
 
-    footer div[arial-label*="Main Footer"] div {
+    footer div:first-child *[class*="linkList"] {
         margin: 0;
     }
 

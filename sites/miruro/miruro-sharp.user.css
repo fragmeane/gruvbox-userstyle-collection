@@ -67,9 +67,14 @@ domain("theanimecommunity.com") {
     }
 
     * {
+        border-radius: 0px !important;
         border: 0 !important;
         filter: none !important;
         -webkit-filter: none !important;
+        -webkit-border-radius: 0px !important;
+        -moz-border-radius: 0px !important;
+        -ms-border-radius: 0px !important;
+        -o-border-radius: 0px !important;
     }
 
     body {

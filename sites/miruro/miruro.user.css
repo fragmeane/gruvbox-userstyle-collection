@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           miruro-gruvbox
 @namespace      github.com/venittas
-@version        1.0.0
+@version        1.0.1
 @description    A gruvbox theme for miruro
 @author         venittas
 ==/UserStyle== */
@@ -299,16 +299,20 @@ domain("theanimecommunity.com") {
         display: none;
     }
 
-    div[class*="socialIconsWrapper"] a[href*="reddit"] {
+    footer div[class*="socialIconsWrapper"] a[href*="reddit"] {
         color: var(--red);
     }
 
-    div[class*="socialIconsWrapper"] a[href*="x"] {
+    footer div[class*="socialIconsWrapper"] a[href*="x"] {
         color: var(--global-text);
     }
 
-    div[class*="socialIconsWrapper"] a[href*="discord"] {
+    footer div[class*="socialIconsWrapper"] a[href*="discord"] {
         color: var(--blue);
+    }
+
+    footer div[arial-label*="Main Footer"] div {
+        margin: 0;
     }
 
     a[class*="editProfileLink"] {

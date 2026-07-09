@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           youtube-gruvbox-sharp
 @namespace      github.com/venittas
-@version        1.0.1
+@version        1.0.2
 @description    A gruvbox theme with sharp corners for youtube
 @author         venittas
 ==/UserStyle== */
@@ -419,5 +419,9 @@
     yt-icon-button.yt-live-chat-item-list-renderer {
         background-color: var(--blue);
         color: var(--on-surface);
+    }
+
+    #player #cinematics-container {
+        visibility: hidden;
     }
 }

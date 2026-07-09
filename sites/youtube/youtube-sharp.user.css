@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name           youtube-gruvbox
+@name           youtube-gruvbox-sharp
 @namespace      github.com/venittas
-@version        1.0.0
+@version        1.0.1
 @description    A gruvbox theme with sharp corners for youtube
 @author         venittas
 ==/UserStyle== */
@@ -44,6 +44,16 @@
         --tf3fc855af2285f5f: var(--surface-container-low);
         --t3e41d7b17b187f69: var(--surface);
         --t2d807bb79e75606d: var(--blue);
+        --yt-sys-color-baseline--overlay-text-primary: var(--on-surface) !important;
+        --yt-live-chat-secondary-text-color: var(--on-surface-variant) !important;
+    }
+
+    [dark] {
+        --tffc2fd3a644f6275: var(--on-surface) !important;
+    }
+
+    [color-version="v2_0"] [dark] {
+        --yt-sys-color-baseline--text-primary: var(--on-surface) !important;
     }
 
     * {
@@ -283,7 +293,7 @@
     }
 
     #channel-name badge-shape svg {
-        fill: var(--blue);
+        fill: var(--pink);
     }
 
     #above-the-fold button[aria-label*="Unsubscribe"] {
@@ -294,6 +304,10 @@
     #above-the-fold button[aria-label*="Subscribe"] {
         background-color: var(--red);
         color: var(--on-surface);
+    }
+
+    #above-the-fold #subscribe-button button yt-icon svg path {
+        fill: var(--on-surface);
     }
 
     segmented-like-dislike-button-view-model like-button-view-model path {
@@ -360,6 +374,50 @@
     }
 
     .ytSuggestionComponentSuggestion span {
+        color: var(--on-surface);
+    }
+
+    .ytSpecAvatarShapeLiveRing::after {
+        border-radius: 0px;
+    }
+
+    #movie_player div[role="dialog"],
+    #movie_player div[role="dialog"] svg path,
+    #movie_player .ytp-settings-menu .ytp-panel-menu,
+    #movie_player .ytp-settings-menu svg path {
+        color: var(--on-surface);
+        fill: var(--on-surface);
+    }
+
+    #movie_player .ytp-settings-menu .ytp-panel-menu .ytp-menuitem-content,
+    #movie_player .ytp-settings-menu .ytp-panel-menu * {
+        color: var(--on-surface-variant);
+    }
+
+    .ytBadgeShapeThumbnailLive {
+        color: var(--on-surface);
+        background-color: var(--red);
+    }
+
+    #sponsor-button button {
+        background-color: var(--blue);
+        color: var(--on-surface);
+    }
+
+    ytd-watch-metadata[description-collapsed] #description.ytd-watch-metadata:hover {
+        background-color: var(--t416e5931fc464589);
+    }
+
+    .ytp-settings-button.ytp-hd-quality-badge::after {
+        background-color: var(--red);
+    }
+
+    .ytSpecAvatarShapeLiveBadge {
+        display: none;
+    }
+
+    yt-icon-button.yt-live-chat-item-list-renderer {
+        background-color: var(--blue);
         color: var(--on-surface);
     }
 }

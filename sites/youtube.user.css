@@ -1,11 +1,36 @@
 /* ==UserStyle==
-@name           youtube-gruvbox-sharp
+@name           youtube-gruvbox
 @namespace      github.com/venittas
-@version        1.0.2
-@description    A gruvbox theme with sharp corners for youtube
+@version        1.0.3
+@description    A gruvbox theme for youtube
 @author         venittas
+
+@preprocessor stylus
+@var checkbox sharpCorners "Sharp Corners" 0
 ==/UserStyle== */
 @-moz-document domain("youtube.com") {
+    if sharpCorners {
+        * {
+            border-radius: 0px !important;
+            -webkit-border-radius: 0px !important;
+            -moz-border-radius: 0px !important;
+            -ms-border-radius: 0px !important;
+            -o-border-radius: 0px !important;
+        }
+
+        .ytSpecAvatarShapeLiveRing::after {
+            border-radius: 0px !important;
+        }
+
+        #voice-search-button yt-button-shape {
+            border-radius: 0px !important;
+        }
+
+        ytd-notification-topbar-button-renderer {
+            border-radius: 0px !important;
+        }
+    }
+
     :root {
         --surface: #1d2021;
         /* background */
@@ -54,10 +79,6 @@
 
     [color-version="v2_0"] [dark] {
         --yt-sys-color-baseline--text-primary: var(--on-surface) !important;
-    }
-
-    * {
-        border-radius: 0px !important;
     }
 
     .ytSearchboxComponentInputBoxDark {
@@ -110,6 +131,14 @@
         border: 0px !important;
         background-color: var(--red) !important;
         color: var(--on-surface) !important;
+    }
+
+    #voice-search-button yt-button-shape {
+        border-radius: 100%;
+    }
+
+    ytd-notification-topbar-button-renderer {
+        border-radius: 100%;
     }
 
     #buttons ytd-button-renderer yt-button-shape {
@@ -375,10 +404,6 @@
 
     .ytSuggestionComponentSuggestion span {
         color: var(--on-surface);
-    }
-
-    .ytSpecAvatarShapeLiveRing::after {
-        border-radius: 0px;
     }
 
     #movie_player div[role="dialog"],

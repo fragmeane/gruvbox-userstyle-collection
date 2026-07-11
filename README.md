@@ -9,21 +9,19 @@ Themes may be rounded, preserving the shape of the original theme or sharp, any 
     <li>
     <div style="display:flex;align-content:center;gap:5px;">
     <a href="https://www.miruro.tv">Miruro</a>
-    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/miruro/miruro.user.css"><img alt="Miruro Rounded Theme" src="https://img.shields.io/badge/Rounded-689d6a"/></a>
-    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/miruro/miruro-sharp.user.css"><img alt="Miruro Sharp Theme" src="https://img.shields.io/badge/Sharp-cc241d"/></a>
+    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/miruro.user.css"><img alt="Miruro Theme" src="https://img.shields.io/badge/Install-458588"/></a>
     </div>
     </li>
     <li>
     <div style="display:flex;align-content:center;gap:5px;">
     <a href="https://www.facebook.com">Facebook</a>
-    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/facebook/facebook-sharp.user.css"><img alt="Facebook Sharp Theme" src="https://img.shields.io/badge/Sharp-cc241d"/></a>
+    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/facebook.user.css"><img alt="Facebook Theme" src="https://img.shields.io/badge/Install-458588"/></a>
     </div>
     </li>
     <li>
     <div style="display:flex;align-content:center;gap:5px;">
     <a href="https://www.youtube.com">YouTube</a>
-    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/youtube/youtube.user.css"><img alt="YouTube Rounded Theme" src="https://img.shields.io/badge/Rounded-689d6a"/></a>
-    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/youtube/youtube-sharp.user.css"><img alt="YouTube Sharp Theme" src="https://img.shields.io/badge/Sharp-cc241d"/></a>
+    <a href="https://github.com/venittas/gruvbox-userstyle-collection/raw/refs/heads/main/sites/youtube.user.css"><img alt="YouTube Theme" src="https://img.shields.io/badge/Install-458588"/></a>
     </div>
     </li>
 </ul>
@@ -32,7 +30,7 @@ Themes may be rounded, preserving the shape of the original theme or sharp, any 
 Theme previews are available at the [assets/](/assets/) directory followed by respective websites.
 
 ## Installation
-Themes can be installed by clicking which kind of theme you want to install beside the platform you are installing for. 
+Themes can be installed by clicking the Install tag next to the platform. 
 
 ## Contributing
 Contributions will be accepted as long as you attach previews of your theme!

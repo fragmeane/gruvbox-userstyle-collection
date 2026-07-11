@@ -1,12 +1,25 @@
 /* ==UserStyle==
-@name           miruro-gruvbox-sharp
+@name           miruro-gruvbox
 @namespace      github.com/venittas
 @version        1.0.4
-@description    A gruvbox theme with sharp corners for miruro
+@description    A gruvbox theme for miruro
 @author         venittas
+
+@preprocessor stylus
+@var checkbox sharpCorners "Sharp Corners" 0
 ==/UserStyle== */
 @-moz-document domain("miruro.tv"),
 domain("theanimecommunity.com") {
+    if sharpCorners {
+        * {
+            border-radius: 0px !important;
+            -webkit-border-radius: 0px !important;
+            -moz-border-radius: 0px !important;
+            -ms-border-radius: 0px !important;
+            -o-border-radius: 0px !important;
+        }
+    }
+
     :root {
         --surface: #1d2021;
         /* background */
@@ -67,14 +80,9 @@ domain("theanimecommunity.com") {
     }
 
     * {
-        border-radius: 0px !important;
         border: 0 !important;
         filter: none !important;
         -webkit-filter: none !important;
-        -webkit-border-radius: 0px !important;
-        -moz-border-radius: 0px !important;
-        -ms-border-radius: 0px !important;
-        -o-border-radius: 0px !important;
     }
 
     body {
@@ -393,7 +401,6 @@ domain("theanimecommunity.com") {
         color: var(--orange);
     }
 
-
     div[class*="tagRowGroup"] div:last-child button:nth-child(2) svg {
         color: var(--green);
     }
@@ -525,5 +532,10 @@ domain("theanimecommunity.com") {
 
     div[class*="timeSlot"] a[class*="watchNow"] div:hover {
         outline: none;
+    }
+
+    div[class*="watchContainer"] div[class*="txtWrap"] a[class*="genreTag"] {
+        color: var(--on-surface-variant);
+        background-color: var(--blue);
     }
 }

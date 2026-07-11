@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           youtube-gruvbox
 @namespace      github.com/venittas
-@version        1.0.3
+@version        1.0.4
 @description    A gruvbox theme for youtube
 @author         venittas
 
@@ -448,5 +448,22 @@
 
     #player #cinematics-container {
         visibility: hidden;
+    }
+
+    .ytp-delhi-modern .ytp-button::after,
+    .ytp-delhi-modern .ytp-button::before,
+    .ytp-delhi-modern .ytp-volume-area::after,
+    .ytp-delhi-modern .ytp-time-display>div::after {
+        border-radius: 0px !important;
+    }
+
+    #buttons[class*="ytd-commentbox"] #cancel-button button {
+        color: var(--on-surface);
+        background-color: var(--surface-container-low);
+    }
+
+    #buttons[class*="ytd-commentbox"] #submit-button button {
+        color: var(--on-surface);
+        background-color: var(--aqua);
     }
 }

@@ -398,7 +398,8 @@
     .ytSubThreadHovered .ytSubThreadContinuation,
     ytd-comment-view-model[hovered] .threadline .continuation,
     .ytSubThreadHovered .ytSubThreadConnection,
-    ytd-comment-view-model[hovered] .continuation.ytd-comment-view-model {
+    ytd-comment-view-model[hovered] .continuation.ytd-comment-view-model,
+    .ytSubThreadHovered #author-thumbnail .threadline .continuation {
         border-left-color: var(--surface-container-highest) !important;
     }
 

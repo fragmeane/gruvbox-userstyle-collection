@@ -420,6 +420,11 @@
     color: var(--on-surface-variant);
   }
 
+  #movie_player .ytp-bezel[role="status"] {
+    background-color: var(--surface-container);
+    backdrop-filter: none;
+  }
+
   .ytBadgeShapeThumbnailLive {
     color: var(--on-surface);
     background-color: var(--red);

@@ -218,7 +218,6 @@ domain("theanimecommunity.com") {
         color: var(--aqua);
     }
 
-    div[class*="slider"],
     div[class*="noticeRow"],
     div[class*="titleBlock"] span {
         display: none;
